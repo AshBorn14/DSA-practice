@@ -143,7 +143,10 @@ public class intro{
             if(arm == i){
                 System.out.println(arm + " is a armstrong number");
             }
+            
         }
+
+        sc.close();
 
     }
 }
