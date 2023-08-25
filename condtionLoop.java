@@ -30,8 +30,8 @@ public class condtionLoop {
 
         System.out.println("Enter a number: ");
         int num = sc.nextInt();
-        int rev = 0;
         int temp = num;
+        int rev = 0;
         while(temp != 0){
             int r = temp%10;
             rev = rev * 10 + r;
